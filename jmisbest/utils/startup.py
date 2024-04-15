@@ -76,22 +76,17 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await jmisbest(UnblockRequest("@R0R77"))
-        await jmisbest(UnblockRequest("@jmthon_bot"))
+        await jmisbest(UnblockRequest("@H_O_K0"))
+        await jmisbest(UnblockRequest("@ramomo_bot"))
         await jmisbest(
             UpdateNotifySettingsRequest(
-                peer="t.me/jmthon_bot",
+                peer="t.me/T_O_Y_S",
                 settings=InputPeerNotifySettings(mute_until=2**31 - 1),
             )
         )
-        await jmisbest.edit_folder("@jmthon_bot", folder=1)  # عمل ارشيف للبوت
+        await jmisbest.edit_folder("@ramomo_bot", folder=1)  # عمل ارشيف للبوت
         channel_usernames = [
-            "jmthon",
-            "RR7PP",
-            "thejmthon",
-            "tnstoree1",
-            "UXUX30",
-            "UXUX39",
+            "T_O_Y_S",
         ]
         for channel_username in channel_usernames:
             try:
@@ -117,11 +112,11 @@ async def mybot():
         print("تم تشغيل البوت")
     else:
         try:
-            await jmisbest.send_message("@jmthon_bot", "/start")
+            await jmisbest.send_message("@ramomo_bot", "/start")
             await asyncio.sleep(1)
             await jmisbest.send_message(
                 "@jmthon_bot",
-                "تم بنجاح تشغيل سورس جمثون عزيزي المستخدم هذا البوت سيتم تشغيله قريبا بعد اكماله",
+                "تم بنجاح تشغيل سورس زينون عزيزي المستخدم هذا البوت سيتم تشغيله قريبا بعد اكماله",
             )
             await asyncio.sleep(1)
             await jmisbest.send_message("@BotFather", "/setinline")
@@ -141,7 +136,7 @@ async def startupmessage():
                 await jmisbest.tgbot.send_file(
                     BOTLOG_CHATID,
                     "https://graph.org//file/c20c4f492da1811e1bef0.jpg",
-                    caption="**شكرا لتنصيبك سورس جمثون**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس جمثون.",
+                    caption="**شكرا لتنصيبك سورس جمثون**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس زينون.",
                     buttons=[(Button.inline("اضغط هنا", data="initft_2"),)],
                 )
                 addgvar("DEPLOY", "Done")
@@ -152,9 +147,9 @@ async def startupmessage():
             if BOTLOG:
                 await jmisbest.tgbot.send_message(
                     BOTLOG_CHATID,
-                    "**لقد تم بنجاح تنصيب سورس جمثون **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @jmthon\n**المطور**: @R0R77\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @jmthon_support\n➖➖➖➖➖➖➖➖➖➖",
+                    "**لقد تم بنجاح تنصيب سورس زينون **\n➖➖➖➖➖➖➖➖➖➖\n****: \n****: \n➖➖➖➖➖➖➖➖➖➖\n****: @\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
-                        (Button.url("كروب المساعدة", "https://t.me/jmthon_support"),)
+                        (Button.url("كروب المساعدة", "https://t.me/H_O_K0"),)
                     ],
                 )
         except Exception as e:
