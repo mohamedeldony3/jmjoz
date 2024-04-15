@@ -1,10 +1,10 @@
 #!/bin/bash
 
-JMTHON="\nJMTHON USERBOT DEPLOY ON VPS"
+JMTHON="\n Zenon USERBOT DEPLOY ON VPS"
 JMTHON+="\n "
 JMTHON+="\n "
-JMTHON+="\n★ Channel: @JMTHON ★"
-JMTHON+="\n★ Support: @jmthon_support ★"
+JMTHON+="\n★ Channel: @T_O_Y_S ★"
+JMTHON+="\n★ Support: @T_O_Y_S ★"
 JMTHON+="\n "
 ROZ="\n "
 echo -e $JMTHON
@@ -58,7 +58,7 @@ echo -e $JMTHON
 echo -e $ROZ
 echo "Cloning jmthon Userbot"
 echo -e $ROZ
-git clone -b bro https://github.com/thejmthon/sbb_b0
+git clone -b bro https://github.com/mohamedeldony3/jmjoz
 echo -e $JMTHON
 echo -e $ROZ
 echo "runing jmthon now"
