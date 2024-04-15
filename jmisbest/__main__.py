@@ -51,7 +51,7 @@ except Exception as meo:
 
 async def startup_process():
     if jmisbest.uid in blacklisted_users:
-        LOGS.info("انت لا يمكنك تنصيب سورس جمثون عزيزي دي")
+        LOGS.info("انت لا يمكنك تنصيب سورس زينون عزيزي دي")
         return
     if not gvarstatus("TNSEEB"):
         try:
@@ -62,7 +62,7 @@ async def startup_process():
             LOGS.info("تم انتهاء عملية التنصيب بنجاح")
             LOGS.info(
                 f"لمعرفة اوامر السورس ارسل {cmdhr}الاوامر\
-                \nمجموعة قناة السورس  https://t.me/jmthon_support"
+                \nمجموعة قناة السورس  https://t.me/T_O_Y_S"
             )
             LOGS.info("============================================================")
             await verifyLoggerGroup()
@@ -75,9 +75,9 @@ async def startup_process():
             LOGS.info(str(e))
             return
     else:
-        LOGS.info("انت لا يمكنك تنصيب سورس جمثون عزيزي دي")
-        LOGS.info("انت لا يمكنك تنصيب سورس جمثون عزيزي دي")
-        LOGS.info("انت لا يمكنك تنصيب سورس جمثون عزيزي دي")
+        LOGS.info("انت لا يمكنك تنصيب سورس زينون عزيزي دي")
+        LOGS.info("انت لا يمكنك تنصيب سورس زينون عزيزي دي")
+        LOGS.info("انت لا يمكنك تنصيب سورس زينون عزيزي دي")
 
 
 jmisbest.loop.run_until_complete(startup_process())
