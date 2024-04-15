@@ -2,14 +2,14 @@ import os
 import random
 import string
 
-JMTHON = "\nJMTHON USERBOT DEPLOY ON VPS"
+JMTHON = "\n Zenon USERBOT DEPLOY ON VPS"
 JMTHON += "\n "
 JMTHON += "\n "
-JMTHON += "\n★ Channel: @JMTHON ★"
-JMTHON += "\n★ Support: @jmthon_support ★"
+JMTHON += "\n★ Channel: @T_O_Y_S ★"
+JMTHON += "\n★ Support: @T_O_Y_S ★"
 JMTHON += "\n "
 ROZ = "\n "
-print(JMTHON)
+print(Zenon)
 print(ROZ)
 print("WAIT ...")
 print(ROZ)
@@ -59,10 +59,10 @@ print(JMTHON)
 print(ROZ)
 print("Cloning jmthon Userbot")
 print(ROZ)
-os.system("git clone -b bro https://github.com/thejmthon/sbb_b0")
+os.system("git clone -b bro https://github.com/mohamedeldony3/jmjoz")
 print(JMTHON)
 print(ROZ)
-print("runing jmthon now")
+print("runing Zenon now")
 print(ROZ)
 os.chdir("sbb_b0")
 
